@@ -129,7 +129,7 @@ echo "==============================================================="
         1|2|3)
             echo "Install Gaia-Node for VPS or Non-GPU Users..."
             rm -rf 1.sh
-            curl -O https://github.com/Yeycg/Gaiatest/blob/main/1.sh
+            curl -O https://raw.githubusercontent.com/Yeycg/Gaiatest/main/1.sh
             chmod +x 1.sh
             ./1.sh
             ;;
