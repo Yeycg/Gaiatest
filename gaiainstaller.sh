@@ -224,7 +224,7 @@ echo "==============================================================="
 
                 # Start the chatbot in a detached screen session
                 screen -dmS gaiabot bash -c '
-                curl -O https://github.com/Yeycg/Gaiatest/blob/main'"$script_name"' && chmod +x '"$script_name"';
+                curl -O https://raw.githubusercontent.com/Yeycg/Gaiatest/main/gaiachat.sh'"$script_name"' && chmod +x '"$script_name"';
                 if [ -f "'"$script_name"'" ]; then
                     ./'"$script_name"'
                 else
