@@ -44,7 +44,7 @@ set_api_url() {
             API_URL="https://sirjames.gaia.domains/v1/chat/completions"
             API_NAME="james"
         else
-            API_URL="https://lamma.gaia.domains/v1/chat/completions"
+            API_URL="https://llama.gaia.domains/v1/chat/completions"
             API_NAME="llama"
         fi
     elif [ "$system_type" -eq 2 ]; then
